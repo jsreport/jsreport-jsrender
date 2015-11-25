@@ -2,16 +2,21 @@
   "name": "jsreport-jsrender",
   "version": "0.0.1",
   "description": "jsreport engine using jsrender",
+  "homepage": "https://github.com/jsreport/jsreport-jsrender",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jsreport/jsreport-jsrender.git"
+  },
   "scripts": {
     "test": "mocha test"
   },
   "keywords": [
     "jsreport",
-    "analytics"
+    "jsrender"
   ],
   "license": "LGPL",
   "dependencies": {
-    "toner-jsrender": "^0.1.0"
+    "toner-jsrender": "0.1.0"
   },
   "author": "Jan Blaha",
   "devDependencies": {}
