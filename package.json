@@ -1,6 +1,6 @@
 {
   "name": "jsreport-jsrender",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "jsreport engine using jsrender",
   "homepage": "https://github.com/jsreport/jsreport-jsrender",
   "repository": {
