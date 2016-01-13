@@ -16,7 +16,9 @@
   ],
   "license": "LGPL",
   "dependencies": {
-    "toner-jsrender": "0.1.0"
+    "mocha": "^2.3.4",
+    "node-jsrender": "1.0.6",
+    "should": "^8.1.1"
   },
   "author": "Jan Blaha",
   "devDependencies": {}
