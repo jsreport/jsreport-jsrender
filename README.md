@@ -1,4 +1,4 @@
-#jsreport-ejs
+#jsreport-jsrender
 [![NPM Version](http://img.shields.io/npm/v/jsreport-jsrender.svg?style=flat-square)](https://npmjs.com/package/jsreport-jsrender)
 [![Build Status](https://travis-ci.org/jsreport/jsreport-jsrender.png?branch=master)](https://travis-ci.org/jsreport/jsreport-jsrender)
 
@@ -22,5 +22,5 @@ You can apply this extension also manually to [jsreport-core](https://github.com
 
 ```js
 var jsreport = require('jsreport-core')()
-jsreport.use(require('jsreport-jsrender')()
+jsreport.use(require('jsreport-jsrender')())
 ```
