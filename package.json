@@ -22,6 +22,5 @@
     "mocha": "^2.3.4",
     "should": "^8.1.1"
   },
-  "author": "Jan Blaha",
-  "devDependencies": {}
+  "author": "Jan Blaha"
 }
