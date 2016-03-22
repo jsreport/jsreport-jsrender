@@ -30,6 +30,12 @@ describe('jsrender', function(){
     }).throw();
   });
 
+  it('should throw when use constr expression', function () {
+    should(function() {
+      jsrender('{{:#tmpl.constructor("var foo=3;")()}}', null, {});
+    }).throw();
+  });
+
   it('should be able to parse and use sub tempates', function () {
     var childTemplate = "<script id=\"inner\" type=\"text/x-jsrender\">{{:#data}}</script>";
     var template = "{{for items tmpl=\"inner\"}}{{/for}}";

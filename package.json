@@ -17,7 +17,7 @@
   "license": "LGPL",
   "dependencies": {
     "mocha": "^2.3.4",
-    "node-jsrender": "1.0.6",
+    "jsrender": "^0.9.74",
     "should": "^8.1.1"
   },
   "author": "Jan Blaha",
