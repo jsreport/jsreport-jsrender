@@ -16,7 +16,7 @@
   ],
   "license": "LGPL",
   "dependencies": {
-    "jsrender": "0.9.76"
+    "jsrender": "0.9.84"
   },
   "devDependencies": {
     "mocha": "2.5.3",
