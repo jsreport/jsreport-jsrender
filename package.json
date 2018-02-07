@@ -19,6 +19,7 @@
     "jsrender": "0.9.84"
   },
   "devDependencies": {
+    "jsreport-core": "^1.5.1",
     "mocha": "2.5.3",
     "should": "9.0.2"
   },
