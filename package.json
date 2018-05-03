@@ -32,6 +32,6 @@
   },
   "author": "Jan Blaha",
   "engines": {
-    "node": ">=8.0"
+    "node": ">=8.9"
   }
 }
