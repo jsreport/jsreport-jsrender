@@ -8,19 +8,30 @@
     "url": "git@github.com:jsreport/jsreport-jsrender.git"
   },
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test && standard"
   },
   "keywords": [
     "jsreport",
     "jsrender"
   ],
+  "standard": {
+    "env": {
+      "node": true,
+      "mocha": true
+    }
+  },
   "license": "LGPL",
   "dependencies": {
-    "jsrender": "0.9.84"
+    "jsrender": "0.9.90"
   },
   "devDependencies": {
-    "mocha": "2.5.3",
-    "should": "9.0.2"
+    "eslint": "4.18.1",
+    "mocha": "5.0.1",
+    "should": "13.2.1",
+    "standard": "11.0.0"
   },
-  "author": "Jan Blaha"
+  "author": "Jan Blaha",
+  "engines": {
+    "node": ">=8.9"
+  }
 }
