@@ -2,7 +2,7 @@
 [![NPM Version](http://img.shields.io/npm/v/jsreport-jsrender.svg?style=flat-square)](https://npmjs.com/package/jsreport-jsrender)
 [![Build Status](https://travis-ci.org/jsreport/jsreport-jsrender.png?branch=master)](https://travis-ci.org/jsreport/jsreport-jsrender)
 
-[jsrender](https://github.com/borismoore/jsrender) templating engine for jsreport. 
+[jsrender](https://github.com/borismoore/jsrender) templating engine for jsreport.
 See the docs https://jsreport.net/learn/jsrender
 
 ## Installation
@@ -13,7 +13,7 @@ To use `jsrender` in for template rendering set `template.engine=jsrender` in th
 
 ```js
 {
-  template: { content: '...', recipe: '...', enginne: 'jsrender' }
+  template: { content: '...', recipe: '...', engine: 'jsrender' }
 }
 ```
 
