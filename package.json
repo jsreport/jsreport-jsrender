@@ -22,7 +22,7 @@
   },
   "license": "LGPL",
   "dependencies": {
-    "jsrender": "0.9.90"
+    "jsrender": "1.0.4"
   },
   "devDependencies": {
     "eslint": "4.18.1",
